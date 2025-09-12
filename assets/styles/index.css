@@ -27,4 +27,9 @@ section {
     background-color: #607780;
     border-radius: 50px;
     width: 496px;
+    height: 101px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F3E4E4;
 }
