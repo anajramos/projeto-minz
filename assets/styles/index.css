@@ -12,13 +12,9 @@ section {
     align-items: center;
 }
 
-.logo {
-
-}
-
 .titulo {
     width: 353px;
-
+    height: 375px;
     color: #000;
     font-family: Gloock;
     font-size: 128px;
@@ -28,9 +24,7 @@ section {
 }
 
 .iniciar {
-    width: 496px;
-    height: 101px;
-    flex-shrink: 0;
+    background-color: #607780;
     border-radius: 50px;
-    background: #607780;
+    width: 496px;
 }
