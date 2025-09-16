@@ -4,32 +4,36 @@
     box-sizing: border-box;
 }
 
-section {
-    height: 100vh;
+body {
     background-color: #F3E4E4;
+}
+
+.tela-inicial {
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
-.titulo {
-    width: 353px;
-    height: 375px;
-    color: #000;
-    font-family: Gloock;
-    font-size: 128px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.logo {
+    width: 300px;
+    margin-bottom: 30px;
 }
 
-.iniciar {
+.botao {
     background-color: #607780;
     border-radius: 50px;
-    width: 496px;
-    height: 101px;
+    padding: 15px 100px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #F3E4E4;
+    transition: 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #46585f;
 }
