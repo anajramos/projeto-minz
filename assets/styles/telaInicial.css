@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+header {
+    background-color: black;
+    padding: 35px;
+}
+
+main {
+    display: flex;
+}
+
+#colecaoVerao {
+    width: 950px;
+    height: 383.62701908957416px;
+    margin: 60px;
+    background-image: url("../images/colecao-verao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo-verao{
+    font-size: 128px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 100px;
+}
+
+#monteSeuLook {
+    width: 345px;
+    height: 145px;
+    margin: 60px;
+    background-image: url("../images/monte-seu-look.png");
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-monteSeuLook{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 45px;
+}
