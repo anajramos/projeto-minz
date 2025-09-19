@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+#caixa-email {
+    width: 396px;
+    height: 57px;
+    flex-shrink: 0;
+}
+
+#caixa-senha {
+    width: 396px;
+    height: 57px;
+    flex-shrink: 0;
+}
+
+#caixa-telefone {
+    width: 396px;
+    height: 57px;
+    flex-shrink: 0;
+}

@@ -10,41 +10,47 @@
     <section class = "cadastro">
         <img src="../assets/images/cadastro.png" alt="Fundo de roupas cadastro" class="fundo-cadastro">
 
-            <a href="../pages/cadastro.html" class = "botao">Entrar</a>
-            <a href="../pages/cadastro.html" class = "botao">Já tem conta? entre</a>
-            
-        <form action="#">
+        <section id = "caixa-email">
+            <form action="#">
         <div class="emailCadastro">
-        <label for="email"></label>
+        <label for="EMAIL"></label>
         <input 
         type="text" 
-        name="email" 
-        placeholder="email"
+        name="EMAIL" 
+        placeholder="EMAIL"
         required
         /> 
     </div>
+        </section>
 
-    <form action="#">
+    <section id = "caixa-senha">
+        <form action="#">
         <div class="senhaCadastro">
-        <label for="senha"></label>
+        <label for="SENHA"></label>
         <input 
         type="password" 
-        name="senha" 
-        placeholder="senha"
-        required
-        /> 
-    </div>
-
-    <form action="#">
-        <div class="telefoneCadastro">
-        <label for="telefone"></label>
-        <input 
-        type="number" 
-        name="telefone" 
-        placeholder="telefone"
+        name="SENHA" 
+        placeholder="SENHA"
         required
         /> 
     </div>
     </section>
+
+   <section id = "caixa-telefone">
+     <form action="#">
+        <div class="telefoneCadastro">
+        <label for="TELEFONE"></label>
+        <input 
+        type="text" 
+        name="TELEFONE" 
+        placeholder="TELEFONE"
+        required
+        /> 
+    </div>
+   </section>
+    </section>
+
+    <a href="../pages/cadastro.html" class = "botao">Entrar</a>
+    <a href="../pages/cadastro.html" class = "botao">Já tem conta? entre</a>
 </body>
 </html>
