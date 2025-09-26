@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+.Fundo-login {
+  width: 100%;
+  display: block;
+}
+
+#caixa-email {
+  width: 393px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  width: 489px;
+  height: 530px;
+  position: relative;
+  margin: 0 auto;
+  flex-shrink: 0;
+  border-radius: 20px;
+ opacity: 0.75;
+ background: #DEDFE0;
+ margin-top: -170px;
+}
+
+.botao {
+  width: 390px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
+
+.link p{
+    text-align: center;
+    padding-top: 10px;
+}
