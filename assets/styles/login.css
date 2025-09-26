@@ -12,29 +12,21 @@ body {
   width: 100%;
   display: block;
 }
+
 #caixa-email {
   width: 393px;
   height: 56px;
   flex-shrink: 0;
   border-radius: 10px;
-  background: #fff;
-}
-
-#caixa-telefone {
-  width: 393px;
-  height: 56px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: #fff;
-}
-
-#caixa-senha {
-  width: 100%;
-  height: 56px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: #fff;
+  width: 489px;
+  height: 530px;
+  position: relative;
   margin: 0 auto;
+  flex-shrink: 0;
+  border-radius: 20px;
+ opacity: 0.75;
+ background: #DEDFE0;
+ margin-top: -170px;
 }
 
 .botao {
@@ -53,11 +45,6 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 22px;
-}
-.quadrado {
-  background-color: rgb(68, 27, 184);
-  width: 500px;
-  height: 547px;
 }
 
 .link p{
