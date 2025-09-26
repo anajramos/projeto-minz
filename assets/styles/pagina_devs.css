@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.barra-menu {
+  width: 100%;
+  height: 93px;
+  background-color: #0c0000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.minz-menu {
+  margin: 17px;
+  margin-left: 30px;
+  font-size: 25px;
+  color: white;
+  font-family: "Gloock", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navegacao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.seta-menu {
+  width: 20px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.barra-pesquisa {
+  background-color: #0c0000;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  width: 544px;
+}
+
+.barra-pesquisa input[type="text"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  padding-right: 35px;
+}
+
+.barra-pesquisa input[type="text"]::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+
+.icones-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icone-devs {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.carrinho-compras {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.icone-usuario {
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.secoes {
+  font-size: 15px;
+  width: 100%;
+  height: 55px;
+  background-color: #e5c9cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.acessorios,
+.moda-feminina,
+.moda-masculina,
+.perfumes,
+.infantil {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Início da página de Desenvolvedores */
+
+.nosso-time {
+  width: 98%;
+  height: 96px;
+  border-radius: 20px;
+  background: #a98c8f;
+  justify-items: center;
+  margin: auto;
+  margin-top: 13px;
+}
+
+.titulo-nosso-time {
+  justify-self: normal;
+  padding-top: 10px;
+  margin-left: 40px;
+  color: white;
+  font-weight: 10;
+  font-size: 40px;
+}
+
+.texto-nosso-time {
+  justify-self: normal;
+  margin-left: 40px;
+  font-family: "Inter";
+  color: white;
+  font-weight: 350;
+}
+
+.nossos-devs {
+  width: 98%;
+  height: 1120px;
+  border-radius: 20px;
+  background: #a98c8f;
+  margin: auto;
+  margin-top: 13px;
+}
+
+.melissa {
+  display: flex;
+}
+
+.melissa-icon {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  border: solid 8px white;
+  border-radius: 100%;
+}
+
+.titulo-melissa {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.texto-melissa {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.manuela {
+  display: flex;
+}
+.manuela-icon {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  border: solid 8px white;
+  border-radius: 100%;
+}
+
+.titulo-manuela {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.texto-manuela {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.julia {
+  display: flex;
+}
+
+.julia-icon {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  border: solid 8px white;
+  border-radius: 100%;
+}
+
+.titulo-julia {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.texto-julia {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nathalia {
+  display: flex;
+}
+.nathalia-icon {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  border: solid 8px white;
+  border-radius: 100%;
+}
+
+.titulo-nathalia {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.texto-nathalia {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ana-julia {
+  display: flex;
+}
+
+.ana-icon {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  border: solid 8px white;
+  border-radius: 100%;
+}
+
+.titulo-ana{
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.texto-ana {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
