@@ -1,56 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro</title>
-    <link rel="stylesheet" href="../assets/styles/cadastro.css">
-</head>
-<body>
-    <section class = "cadastro">
-        <img src="../assets/images/cadastro.png" alt="Fundo de roupas cadastro" class="fundo-cadastro">
+    <link rel="stylesheet" href="../assets/styles/cadastro.css" />
+  </head>
+  <body>
+    <header class="logo">
+      <img
+        src="../assets/images/minz-logo.png"
+        alt="Logo Minz"
+        class="minz-logo"
+      />
+    </header>
 
-        <section id = "caixa-email">
-            <form action="#">
+    <div class="cadastro">
+      <img
+        src="../assets/images/cadastro.png"
+        alt="Fundo branco com roupas, bolsas, acessórios e sapatos cadastro "
+        class="fundo-cadastro"
+      />
+    </div>
+
+    <section id="caixa-email">
+      <form action="#">
         <div class="emailCadastro">
-        <label for="EMAIL"></label>
-        <input 
-        type="text" 
-        name="EMAIL" 
-        placeholder="EMAIL"
-        required
-        /> 
-    </div>
-        </section>
+          <label for="EMAIL"></label>
+          <input type="text" name="EMAIL" placeholder="EMAIL" required />
+        </div>
 
-    <section id = "caixa-senha">
-        <form action="#">
         <div class="senhaCadastro">
-        <label for="SENHA"></label>
-        <input 
-        type="password" 
-        name="SENHA" 
-        placeholder="SENHA"
-        required
-        /> 
-    </div>
-    </section>
+          <label for="SENHA"></label>
+          <input type="password" name="SENHA" placeholder="SENHA" required />
+        </div>
 
-   <section id = "caixa-telefone">
-     <form action="#">
         <div class="telefoneCadastro">
-        <label for="TELEFONE"></label>
-        <input 
-        type="text" 
-        name="TELEFONE" 
-        placeholder="TELEFONE"
-        required
-        /> 
-    </div>
-   </section>
-    </section>
+          <label for="TELEFONE"></label>
+          <input type="text" name="TELEFONE" placeholder="TELEFONE" required />
+        </div>
+      </form>
 
-    <a href="../pages/cadastro.html" class = "botao">Entrar</a>
-    <a href="../pages/cadastro.html" class = "botao">Já tem conta? entre</a>
-</body>
+      <div>
+      <a href="../pages/cadastro.html" class="botao">Já tem conta? entre</a>
+    </div>
+    <div>
+      <a href="../pages/cadastro.html" class="botao">Entrar</a>
+    </div>
+    </section>
+  </body>
 </html>
