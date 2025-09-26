@@ -1,57 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tela Login</title>
+    <title>login</title>
     <link rel="stylesheet" href="../assets/styles/login.css" />
   </head>
   <body>
-    <section class="tela-login">
+    <div class = "logo">
+        <img src="../assets/images/logo.png" alt="Logo Minz" />
+    </div>
+    <header class="login">
       <img
         src="../assets/images/fundo.png"
-        alt="Imagem com fundo branco com roupas e acessorios expostas"
-        class="Fundo-login"
+        alt="Fundo branco com roupas, bolsas, acessórios e sapatos login "
+        class="fundo-login"
       />
 
       <section id="caixa-email">
         <form action="#">
-          <div class="email">
-            <label for="email"></label>
-            <input type="email" name="email" placeholder="email" required />
+          <div class="emailLogin">
+            <label for="EMAIL"></label>
+            <input type="text" name="EMAIL" placeholder="EMAIL" required />
           </div>
 
-          <section id="caixa-telefone">
-            <form action="#">
-              <div class="telefone">
-                <label for="telefone"></label>
-                <input />
-                type="texte" name="telefone" placeholder="telefone" required
-              </div>
+          <div class="senhaLogin">
+            <label for="SENHA"></label>
+            <input type="password" name="SENHA" placeholder="SENHA" required />
+          </div>
 
-              <section id="caixa-senha">
-                <form action="#">
-                  <div class="senha">
-                    <label for="senha"></label>
-                    <input
-                      type="password"
-                      name="senha"
-                      placeholder="senha"
-                      required
-                    />
-                  </div>
+          <div class="telefoneLogin">
+            <label for="TELEFONE"></label>
+            <input
+              type="text"
+              name="TELEFONE"
+              placeholder="TELEFONE"
+              required
+            />
+          </div>
 
-                  <a href="pages/telaInicial.html" class="botao"
-                    >Não tem conta? cadastre-se</a
-                  >
-
-                  <a href="pages/login.html" class="botao">Entrar</a>
-                </form>
-              </section>
-            </form>
-          </section>
         </form>
       </section>
-    </section>
+      <section id="caixa-senha">
+        <form action="#">
+        
+        </form>
+      </section>
+
+      <section id="caixa-telefone">
+        <form action="#">
+        </form>
+      </section>
+
+      <div class= "botao">
+        <a href="../pages/login.html" class="link">
+          Entrar
+        </a>
+      </div>
+      <div>
+        <a href="../pages/login.html" class="botao02">Não tem uma conta? cadastre-se</a>
+      </div>
+    </header>
   </body>
 </html>

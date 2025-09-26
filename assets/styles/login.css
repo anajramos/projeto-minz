@@ -1,44 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color:  #fbfbfb;
+  background-color: #fbfbfb;
 }
 
 .Fundo-login {
-    width: 100%;
+  width: 100%;
+  display: block;
 }
 #caixa-email {
-    width: 393px;
-height: 56px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #FFF;
-};
+  width: 393px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+}
 
 #caixa-telefone {
-    width: 393px;
-height: 56px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #FFF;
-};
+  width: 393px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+}
 
 #caixa-senha {
-    width: 393px;
-height: 56px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #FFF;
-};
+  width: 100%;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  margin: 0 auto;
+}
 
 .botao {
-    width: 390px;
-height: 60px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #000;
-};
+  width: 390px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
+.quadrado {
+  background-color: rgb(68, 27, 184);
+  width: 500px;
+  height: 547px;
+}
+
+.link p{
+    text-align: center;
+    padding-top: 10px;
+}
