@@ -1,58 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tela Login</title>
-    <link rel="stylesheet" href="../assets/styles/login.css">
-</head>
-<body>
-    <section class = "tela-login">
-        <img src="../assets/images/fundo-login.png" alt="Fundo de roupas login" class="Fundo-login">
+    <link rel="stylesheet" href="../assets/styles/login.css" />
+  </head>
+  <body>
+    <section class="tela-login">
+      <img
+        src="../assets/images/fundo.png"
+        alt="Imagem com fundo branco com roupas e acessorios expostas"
+        class="Fundo-login"
+      />
 
-    <section id = "caixa-email">
-              <form action="#">
-      <div class="email">
-        <label for="email"></label>
-        <input
-          type="email"
-          name="email"
-          placeholder="email"
-          required
-        />
-      </div>
-        </section>
-
-      <section id = "caixa-telefone">
+      <section id="caixa-email">
         <form action="#">
-      <div class="telefone">
-        <label for="telefone"></label>
-        <input
-          type="texte"
-          name="telefone"
-          placeholder="telefone"
-          required
-        />
-      </div>
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" name="email" placeholder="email" required />
+          </div>
+
+          <section id="caixa-telefone">
+            <form action="#">
+              <div class="telefone">
+                <label for="telefone"></label>
+                <input />
+                type="texte" name="telefone" placeholder="telefone" required
+              </div>
+
+              <section id="caixa-senha">
+                <form action="#">
+                  <div class="senha">
+                    <label for="senha"></label>
+                    <input
+                      type="password"
+                      name="senha"
+                      placeholder="senha"
+                      required
+                    />
+                  </div>
+
+                  <a href="pages/telaInicial.html" class="botao"
+                    >Não tem conta? cadastre-se</a
+                  >
+
+                  <a href="pages/login.html" class="botao">Entrar</a>
+                </form>
+              </section>
+            </form>
+          </section>
+        </form>
       </section>
-
-      <section id = "caixa-senha">
-      <form action="#">
-      <div class="senha">
-        <label for="senha"></label>
-        <input
-          type="password"
-          name="senha"
-          placeholder="senha"
-          required
-        />
-      </div>
-      </section>
-      
-       <a href="pages/telaInicial.html" class = "botao">Não tem conta? cadastre-se</a>
-
-       <a href="pages/login.html" class = "botao">Entrar</a>
-
     </section>
-</body>
+  </body>
 </html>
