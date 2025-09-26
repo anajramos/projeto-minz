@@ -1,0 +1,213 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header-looks {
+    background: #000;
+    color: #fff;
+    border-bottom: 8px solid #e7c6c6;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 32px 0 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo-header {
+    height: 44px;
+    margin-right: 32px;
+}
+.search-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #222;
+    border-radius: 30px;
+    padding: 4px 18px;
+    margin: 0 32px;
+    max-width: 480px;
+    min-width: 260px;
+}
+.search-bar input {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 17px;
+    padding: 8px 10px;
+    outline: none;
+    width: 100%;
+}
+.search-bar button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.icon-header {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.icon-header:hover {
+    filter: brightness(0.7) invert(0.7) sepia(1) hue-rotate(-20deg) saturate(2);
+}
+.menu-header {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    background: #fff0f0;
+    padding: 8px 0 8px 0;
+    border-bottom: 1px solid #e7c6c6;
+    width: 100%;
+    font-size: 16px;
+}
+.menu-header a {
+    color: #222;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2px 12px;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+.menu-header a:hover {
+    background: #e7c6c6;
+    color: #b88;
+}
+
+@media (max-width: 900px) {
+    .header-top {
+        flex-direction: column;
+        gap: 12px;
+        padding: 18px 8px 0 8px;
+    }
+    .menu-header {
+        gap: 18px;
+        font-size: 15px;
+    }
+    .search-bar {
+        margin: 12px 0;
+        min-width: 180px;
+    }
+}
+
+#monteseulook {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 0 0 0;
+}
+.titulo-looks {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 32px;
+    font-size: 2rem;
+    color: #222;
+}
+.looks-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+.quadro-looks {
+    background: #dedede;
+    border-radius: 20px;
+    padding: 24px;
+    width: 370px;
+    min-height: 500px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quadro-looks h3 {
+    font-weight: 400;
+    margin-bottom: 18px;
+    color: #444;
+    font-size: 1.15rem;
+}
+.grid-roupas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    width: 100%;
+}
+.roupa-item {
+    background: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
+.roupa-item img {
+    max-height: 90px;
+    max-width: 90px;
+    margin-bottom: 4px;
+}
+.add-item span {
+    font-size: 48px;
+    color: #bbb;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.add-item span:hover {
+    color: #b88;
+}
+.link-loja {
+    font-size: 13px;
+    color: #b88;
+    margin-top: 6px;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+.link-loja:hover {
+    color: #222;
+}
+
+@media (max-width: 900px) {
+    .looks-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+    .quadro-looks {
+        width: 95vw;
+        min-width: 260px;
+        max-width: 400px;
+    }
+    .header-container {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+}
